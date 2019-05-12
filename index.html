@@ -12,6 +12,8 @@
 	<link href="https://unpkg.com/ionicons@4.4.4/dist/css/ionicons.min.css" rel="stylesheet">
 	<link rel ="stylesheet" type="text/css" href="vendors/css/normalize.css">
 	<link rel ="stylesheet" type="text/css" href="vendors/css/grid.css">
+	<script src="resources/javas/jquery.min.js"></script>
+	<script src="resources/javas/script.js"></script>
 </head>
 
 
@@ -22,17 +24,17 @@
 			<div class="row">
 				<img class="logo" src="resources/css/image/logo-white.png" alt="logo"/>
 				<ul class="mainnav">
-					<li><a href="#">Food delivery</a></li>
-					<li><a href="#">How it works</a></li>
-					<li><a href="#">Our cities</a></li>
-					<li><a href="#">Sign up</a></li>
+					<li><a class="js--food-delivery" href="#">Food delivery</a></li>
+					<li><a class="js--how-it-works" href="#">How it works</a></li>
+					<li><a class="js--our-cities" href="#">Our cities</a></li>
+					<li><a class="js--scroll-to-signup" href="#">Sign up</a></li>
 				</ul> 
 			</div>
 		</nav>
 		<div class="headlinetext">
 			<h1 class="text"> Goodbye junk food.<br> Hello super healthy meals.</h1>			
-			<a class="button button1" href="https://www.google.com" target="_blank">I'm hungry </a>
-			<a class="button button2" href="https://www.google.com" target="_blank">Show me more  </a>
+			<a class="button button1 js--scroll-to-signup" href="#">I'm hungry </a>
+			<a class="button button2 js--scroll-to-features" href="#">Show me more  </a>
 		</div>
 	</header>
 
@@ -40,7 +42,7 @@
 
 
 	<section>
-		<div class="features">
+		<div class="features js-features">
 			<div class="row">
 				<h2 class="text1">Get food fast &mdash; not fast food.</h2>
 				<p class="introtext">Hello, we're Omnifood, your new premium food delivery service. We know you're always busy. No time for cooking. So let us take care of that, we're really good at it, we promise!</p>
@@ -76,7 +78,7 @@
 
 
 
-	<section class="mealssection">
+	<section class="mealssection js--mealssection">
 		<ul class="meals clearfix">
 			<li>
 				<figure class="mealpic">
@@ -133,7 +135,7 @@
 
 
 
-	<section class="howitworks">
+	<section class="howitworks js--how">
 		<div class="row">
 			<h2 class="text1"> How it works &mdash; Simple as 1, 2, 3</h2>
 		</div>
@@ -168,7 +170,7 @@
 
 
 
-	<section class="cities">
+	<section class="cities js--cities">
 		<div class="row">
 			<h2 class="text1"> We are currently in these cities</h2>
 		</div>
@@ -301,7 +303,7 @@
 
 
 
-	<section class="signup">
+	<section class="signup js--signup">
 		<div class="row">
 			<h2 class="text1">start eating  healty today</h2>
 		</div>
